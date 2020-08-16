@@ -13,5 +13,22 @@ public class Test01 {
         System.out.println("筛选列表: " + filtered);
         String mergedString = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.joining(", "));
         System.out.println("合并字符串: " + mergedString);
+        for (int i = 0; i < 100; i++) {
+            System.out.println("i = " + i);
+        }
+     String a =   test();
+        System.out.println("a = " + a);
+    }
+
+    private static String test() {
+        int flag = 2;
+        if (flag == 1) {
+            System.out.println("flag = " + flag);
+
+
+        }else {
+            System.out.println("true = " + true);
+        }
+        return "aaa";
     }
 }
