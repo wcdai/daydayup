@@ -3,7 +3,9 @@ package com.study.daydayup.day01.demo01.p2;
 import com.study.daydayup.day01.demo01.p1.Cat;
 import com.study.daydayup.day01.demo01.p1.Dog;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class MyConfig {
 
     @Bean
